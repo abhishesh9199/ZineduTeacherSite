@@ -1,0 +1,55 @@
+.side-nav{
+    font-size: 1.3em;
+}
+
+.upcoming-classes, .past-classes, .doubts, .notes, .logout{
+    margin: 13% 10% !important;
+}
+
+
+.upcoming-classes a, .past-classes a, .doubts a, .notes a, .logout a{
+    text-decoration: none;
+    color: #2A304E;
+}
+
+
+.flabel{
+    font-weight: bold;
+}
+
+.list-group{
+    font-weight: normal;
+}
+
+.icon {
+    background-color: #2A304E !important;
+    color: #E97A26 !important;
+    margin: 1.4rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1.3rem;
+}
+
+.icon img{
+    height: auto;
+    width: 3.2em;
+    margin-top: 1.25rem;
+}
+
+.list-group{
+    max-height: 5.5em;
+    overflow-y: auto;
+    border-radius: 1.3em;
+}
+
+@media (max-width: 991.98px){
+    .nav-1{
+        display: none;
+    }
+}
+
+@media (min-width: 991.98px){
+    .nav-0{
+        display: none;
+    }
+}

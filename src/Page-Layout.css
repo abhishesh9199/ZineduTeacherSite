@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden !important;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #000000;
+}
+
+.nav-bar{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+.nav-logo{
+    height: 3em;
+    margin-left: 4%;
+}
+
+.ft-logo-img{
+    margin-top:4rem;
+    padding-top: 10%;
+    width: 40%;  
+}
+
+.content{
+    background: #E97A26;
+}
+
+.footer-line{
+    color: #ffffff !important;
+}
+
+.content{
+    color: #4C4C4C;
+    margin-top: -0.111em !important;
+}
+
+.address{
+    padding: 0 2em !important;
+}
+
+.footer-heading{
+    font-weight: bold;
+}
+
+.tel, .mail {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+footer ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.footer-data a{
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+.social-icons a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #4C4C4C; 
+}
+
+.social-icons li{
+    display: inline-block !important;
+}
+
+.copyright{
+    color: #f0f0f0;
+    font-weight: lighter;
+}
+
+.sidebar-active a{
+    color: #E97A26 !important;
+    text-decoration: none !important;
+}

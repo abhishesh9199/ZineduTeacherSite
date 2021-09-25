@@ -1,0 +1,130 @@
+.profile-icon{
+    height: 2.5rem;
+}
+
+.banner-main{
+    background: #2A304E;
+}
+
+.teacher-name{
+    font-weight: bold;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    color: #ffffff;
+}
+
+.teacher-illustration{
+    height: auto;
+    width: 80%;
+}
+
+.details-data{
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.classroom{
+    background: #2A304E;
+}
+
+.class-details{
+    color: #ffffff;
+}
+
+.details{
+    background: #E97A26;
+}
+
+.btn-container{
+    background: #F0F0F0;    
+}
+
+.btn-container a{
+    color: #2C3687;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.prof-dropdown{
+    color: #ffffff;
+    font-size: 1.3em;
+    background-color: #2A304E;
+    border-radius: 1.3em;
+}
+
+.prof-dropdown:hover{
+    color: #000000 !important;
+}
+
+.dropdown-item:hover{
+    border-radius: 1.3em !important;
+    background-color: #2A304E !important;
+    color: #E97A26 !important;
+}
+
+.ddown{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 1.2em;
+}
+
+.prof{
+    margin-right: 4% !important;
+}
+
+@media (max-width: 991.98px){
+
+    .nav-1{
+        display: none;
+    }
+
+    .first_row0{
+        display: none
+    }
+
+    .banner-logo{
+        height: auto;
+        width: 75%;
+        margin: auto;
+        display: flex;
+        justify-content: center;  
+    }
+
+    .classroom{
+        border-radius: 1.3em 1.3em 0 0;
+    }
+
+    .details{
+        border-radius: 0 0 1.3em 1.3em;
+    }
+
+}
+
+@media (min-width: 991.98px){
+    .nav-0{
+        display: none;
+    }
+
+    .first_row1{
+        display: none
+    }
+
+    .banner-logo{
+        height: auto;
+        width: 75%;
+        margin: auto;
+        margin-top: 25%;
+        display: flex;
+        justify-content: center;  
+    }
+
+    .classroom{
+        border-radius: 1.3em 0 0 1.3em;
+    }
+
+    .details{
+        border-radius: 0 1.3em 1.3em 0;
+    }
+}

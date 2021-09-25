@@ -1,0 +1,17 @@
+@media (max-width: 11199.98px){
+    .pass-success{
+        width: 45%;
+    }
+}
+
+@media (max-width: 767.98px){
+    .pass-success{
+        width: 60%;
+    }
+}
+
+@media (max-width: 575.98px){
+    .pass-success{
+        width: 70%;
+    }
+}

@@ -1,0 +1,25 @@
+.side-nav{
+    font-size: 1.3em;
+}
+
+.upcoming-classes, .past-classes, .doubts, .notes, .logout{
+    margin: 13% 10% !important;
+}
+
+
+.upcoming-classes a, .past-classes a, .doubts a, .notes a, .logout a{
+    text-decoration: none;
+    color: #2A304E;
+}
+
+@media (max-width: 991.98px){
+    .nav-1{
+        display: none;
+    }
+}
+
+@media (min-width: 991.98px){
+    .nav-0{
+        display: none;
+    }
+}

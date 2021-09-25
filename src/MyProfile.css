@@ -1,0 +1,51 @@
+.profile{
+    background: #2A304E;
+}
+
+.profile-form{
+    background: #f9f9f9;
+}
+
+.profile-pic{
+    height: auto;
+    width: 75%;
+    margin: 23.5% auto;
+}
+
+.save-changes{
+    background-color: #2A304E !important;
+    color: #ffffff;
+    border-radius: 2em;
+}
+
+.save-changes:hover{
+    color: #d6d5d5; 
+}
+
+.form-logo{
+    width: 40%;
+}
+
+.input-area{
+    border-radius: 2em;
+    /* width: 100%; */
+}
+
+/* .icon{
+    font-family: montserrat, 'Font Awesome 5 Free';
+    font-size: 1.2em;
+} */
+
+@media (max-width: 991.98px){
+    .profile{
+        display: none;
+    }
+}
+.teacher-name{
+    font-weight: bold;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    color: #131111;
+}

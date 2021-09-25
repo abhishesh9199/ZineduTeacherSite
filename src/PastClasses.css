@@ -1,0 +1,47 @@
+.side-nav{
+    font-size: 1.3em;
+}
+
+.upcoming-classes, .past-classes, .doubts, .notes, .logout{
+    margin: 13% 10% !important;
+}
+
+
+.upcoming-classes a, .past-classes a, .doubts a, .notes a, .logout a{
+    text-decoration: none;
+    color: #2A304E;
+}
+
+
+.class-schedule{
+    background-color: #2A304E;
+    background-image: url('./img/honeycomb-bg.png');
+    color: #ffffff;
+    font-size: 1.1em;
+    border-radius: 25px;
+    margin: 4%;
+    padding: 2.7rem !important;
+}
+
+.date{
+    color: #E97A26;
+}
+
+
+.pclass, .pclass:hover{
+    text-decoration: none !important;
+    display: inline !important;
+    color: #ffffff !important;
+}
+
+@media (max-width: 991.98px){
+    .nav-1{
+        display: none;
+    }
+}
+
+@media (min-width: 991.98px){
+    .nav-0{
+        display: none;
+    }
+}
